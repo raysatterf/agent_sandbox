@@ -1,0 +1,14 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": ["--line-length", "79"],
+    "python.linting.enabled": true,
+    "[python]": {
+
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.wordWrapColumn": 79
+    },
+    "python.analysis.diagnosticSeverityOverrides": {
+        
+    }
+}

@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "democrewaitest2"
+version = "0.1.0"
+description = "Test demo of crewai."
+authors = ["Ray Satterfield <raysatterf@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = { extras = ["tools"], version = "^0.22.5" }
+duckduckgo-search = "^5.1.0"
+openai = "^1.14.2"
+wheel = "^0.43.0"
+playsound = "1.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
